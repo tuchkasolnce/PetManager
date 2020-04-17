@@ -1,0 +1,17 @@
+ @AndroidFindBy(id = "save_item")
+    private transient AndroidElement saveButton;
+
+    public AddFavoriteRepositoryPage chooseRepository(GithubUser user)
+    {
+        waitForElementToBeClickable(MobileBy.xpath(
+            format(REPOSITORY_TO_FIND, user.getUsername(), user.getRepositoryName()))).click();
+
+        return this;
+    }
+
+    public HomePage saveRepositoryAsFavorite()
+    {
+        waitForElementToBeClickable(saveButton).click();
+
+        return new HomePage();
+    }

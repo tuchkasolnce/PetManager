@@ -1,0 +1,7 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 23, 2020 10:08:51 PM org.junit.platform.launcher.core.LauncherConfigurationParameters fromClasspathResource
+INFO: Loading JUnit Platform configuration parameters from classpath resource [file:/E:/Automation/jaskier/out/test/resources/junit-platform.properties].
+Mar 23, 2020 10:08:58 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
